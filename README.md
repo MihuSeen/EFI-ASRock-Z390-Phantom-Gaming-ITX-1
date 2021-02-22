@@ -1,22 +1,22 @@
 # EFI-ASRock-Z390-Phantom-Gaming-ITX
 The EFI of Asrock Z390 Phantom Gamming ITX for Hackintosh
 
-Clover built by: ![t_logo](https://user-images.githubusercontent.com/6239630/73442546-179b4b80-4366-11ea-9a1e-1e96102aa86c.png) @hackintosh_by 
-
 # OS Version
-- Big Sur 11.0.1
+- Big Sur 11.2.1
 
 # OpenCore Version
-- 0.6.3
+- 0.6.6
 
-![](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX/blob/master/images/macOS_big_sur_11.0.1.jpg?raw=true)
+![](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX/blob/master/images/big_sur_11_1.jpg?raw=true)
+![](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX/blob/master/images/tb3_info.jpg?raw=true)
+![](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX/blob/master/images/tb3_network.jpg?raw=true)
 
 ## Hardware Specification
 | Item | Brand | Comment |
 | --- | --- | --- |
 | CPU | [Intel I5 9600K](https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html) | |
 | Mother Board | [Asrock Z390 Phantom Gaming ITX/AC](https://www.asrock.com/MB/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp) | |
-| BIOS Version | 4.0 | |
+| BIOS Version | 4.40C | |
 | Memory | Kingston DDR4 3200 16GB Single | |
 | SSD | [WD Black SN750 NVMe SSD 1TB](https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd) | |
 | iGPU | iGPU Intel UHD 630 | |
@@ -28,6 +28,22 @@ Clover built by: ![t_logo](https://user-images.githubusercontent.com/6239630/734
 
 
 ## Changelog
+_05-Feb-2021_
+- Upgraded OpenCore to version `0.6.6`
+- Upgraded KEXTs
+
+_08-Jan-2021_
+- Upgraded OpenCore to version `0.6.5`
+- Upgraded KEXTs
+- Enabled Thunderbolt 3 and support hot plug, check tutorial [here](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX/blob/master/enable_tb3.md)
+
+_16-Dec-2020_
+- Supported macOS version: `11.1`
+
+_10-Dec-2020_
+- Upgraded OpenCore to version `0.6.4`
+- Upgraded KEXTs
+
 _05-Dec-2020_
 - Support macOS version: 11.0.1
 
@@ -71,6 +87,7 @@ _27-Apr-2020_
 - Audio card
 - Sleep, wake up
 - Onboard DP port, HDMI port
+- Thunderbolt 3: display, charging, data transfer, no devices to verify the Daisy chaining
 
-# What Broken:
-- Thunderbolt 3 maybe out of work, I didn't pay much time on this
+# Donate a coffee 
+![](https://github.com/ansonliao/EFI-ASRock-Z390-Phantom-Gaming-ITX/blob/master/images/donation.png?raw=true)
